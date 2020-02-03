@@ -8,3 +8,20 @@ body {
   margin: 30px;
   background-color: #F7F3DE; 
 }
+
+header h1 {
+  font-size: 350x;
+  color: #7C1A00;
+  padding: 40px;
+  left-padding: 120px;
+}
+
+#container {
+  margin-bottom: 30px;
+}
+
+nav {
+  float: left;
+ width: 150px;
+ 
+}
