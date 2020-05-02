@@ -2,21 +2,21 @@
   <title>Simple SVG house</title>
   <desc>Simple SVG house</desc>
   <!-- Wall -->
-  <rect x="100" y="200" width="300" height="300" fill="beige"/>
+  <rect x="100" y="200" width="300" height="300" fill="green"/>
   <!-- Window -->
-  <circle cx="200" cy="275" r="50" fill="lightblue"/>
+  <circle cx="200" cy="275" r="50" fill="white"/>
   <!-- Door -->
   <line x1="325" y1="500" x2="325" y2="350" stroke="burlywood" stroke-width="100" stroke-linecap="round"/>
   <!-- Roof -->
-  <path d="M 75,200 L 425,200 L 250,50 Z" fill="firebrick"/>
+  <path d="M 75,200 L 425,200 L 250,50 Z" fill="brown"/>
   <!-- Chimney -->
-  <rect x="300" y="76" width="50" height="60" fill="beige"/>
+  <rect x="300" y="76" width="50" height="60" fill="lightbrown"/>
   <!-- Cloud's path -->
   <path id="cloudPath" d="M 600,50 H -600" fill="none"/>
   <!-- Cloud -->
   <g>
     <path d="M 50,100 Q 50,50 100,75 Q 125,25 175,50 Q 225,25 250,75 Q 300,50 300,100 C 300,100 300,108 290,110 C 290,110 175,125 60,110 C 60,110 50,108 50,100" fill="rgba(173,216,230,0.7)"/>
-    <animateMotion begin="0s" dur="10s" repeatCount="indefinite">
+    <animateMotion begin="0s" dur="5s" repeatCount="twice">
       <mpath xlink:href="#cloudPath"/>
     </animateMotion>
   </g>
